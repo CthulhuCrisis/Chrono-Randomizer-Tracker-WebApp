@@ -141,7 +141,10 @@ $(function() {
     loadContent(activeEvent);
 
     $("#skip").click(function() {
+        activeEvent.completed = true;
+        let oldEvent = activeEvent;
         let status = fetchEvent();
+        oldEvent.completed = false;
     });
     
     $("#complete").click(function() {
