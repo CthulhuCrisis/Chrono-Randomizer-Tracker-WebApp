@@ -22,8 +22,10 @@
 
 .goal-ic {
   color: red;
+  user-select: none;
 }
 
 .goal-c {
   color: green;
+  user-select: none;
 }
