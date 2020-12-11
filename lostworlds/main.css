@@ -1,0 +1,31 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+.content {
+    background-color: lightgray;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#keys {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.check-labels {
+  margin-left: 8px;
+}
+
+.goal-ic {
+  color: red;
+  user-select: none;
+}
+
+.goal-c {
+  color: green;
+  user-select: none;
+}
