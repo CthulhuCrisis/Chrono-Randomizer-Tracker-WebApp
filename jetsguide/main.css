@@ -1,0 +1,45 @@
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.content {
+    background-color: lightgray;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.content-darkmode {
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.top-darkmode {
+    background-color: #494949;
+}
+
+.check-labels {
+    margin-left: 8px;
+}
+
+.goal-ic {
+    color: rgb(168, 21, 21);
+    user-select: none;
+}
+
+.goal-c {
+    color: rgb(52, 192, 47);
+    user-select: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.body-darkmode {
+    background-color: #4d0000;
+    color: mintcream;
+}
